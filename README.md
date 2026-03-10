@@ -23,6 +23,8 @@ Post-print Available: https://arxiv.org/abs/2603.07309
 
 IEEE Xplore: Not Available
 
+[1] Awaiting citation
+
 **If you use data/code from this repository, please cite our paper. Thanks!**
 
 # Testbed description
