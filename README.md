@@ -1,8 +1,14 @@
 # Impact of 5G Latency and Jitter on TAS Scheduling in a 5G-TSN Network: An Empirical Study
 
-As Industry 4.0 moves towards flexible workflows and the use of Autonomous Mobile Robots (AMRs), integrating 5G with Time-Sensitive Networking (TSN) has become the next big frontier. However, the stochastic nature of 5G latency often clashes with the strict microsecond-level precision required by the industrial applications relying on IEEE 802.1Qbv Time-Aware Shaper (TAS), posing a significant challenge for end-to-end determinism.
+As Industry 4.0 moves towards flexible workflows and the use of 
+Autonomous Mobile Robots (AMRs), integrating 5G with 
+Time-Sensitive Networking (TSN) has become the next big frontier. 
+However, the stochastic nature of 5G latency often clashes with 
+the strict microsecond-level precision required by the industrial 
+applications relying on IEEE 802.1Qbv Time-Aware Shaper (TAS), 
+posing a significant challenge for end-to-end determinism.
 
-In this study, we present an empirical evaluation using a 
+In this study [1], we present an empirical evaluation using a 
 real-world testbed with commercial 5G and TSN switches. The full 
 TSN network is synchronized through TSN translators, i.e., NW-TT 
 and DS-TT, located on both sides of the 5G system, resembling a 
