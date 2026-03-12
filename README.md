@@ -23,7 +23,10 @@ Post-print Available: https://arxiv.org/abs/2603.07309
 
 IEEE Xplore: Not Available
 
-[1] Awaiting citation
+[1] P. Rodriguez-Martin, O. Adamuz-Hinojosa, P. Muñoz, J. Caleya-Sanchez, 
+and P. Ameigeiras, “Impact of 5G Latency and Jitter on TAS Scheduling in 
+a 5G-TSN Network: An Empirical Study,” _IEEE Internet of Things Journal_, 
+Mar. 2026, doi: 10.1109/JIOT.2026.3673410.
 
 **If you use data/code from this repository, please cite our paper. Thanks!**
 
