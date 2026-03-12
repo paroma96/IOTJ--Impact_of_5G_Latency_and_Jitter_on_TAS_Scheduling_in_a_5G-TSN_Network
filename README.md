@@ -177,7 +177,7 @@ We sweep the best-effort (BE) packet generation rates of 600 Mbps,
 650 Mbps, 700 Mbps, 750 Mbps, 800 Mbps, 850 Mbps, 900 Mbps, 950 Mbps, 
 and 980 Mbps to analyze how the BE load affects the DC traffic ZWSL
 empirical delay distribution. The network cycle is fixed to  30 ms 
-and the transmission window is set only at MS, of 46.5μs.
+and the transmission window is set only at MS, of 46.5 μs.
 
 Note the network cycle values, unlike the Cyclic-Synchronous 
 applications, have been adapted to the capabilities of our
