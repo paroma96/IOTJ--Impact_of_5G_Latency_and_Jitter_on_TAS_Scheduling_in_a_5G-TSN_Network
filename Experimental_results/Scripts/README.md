@@ -26,7 +26,7 @@ behavior (latencies between 13 and 17.5 ms). By utilizing distinct line styles a
 two-column legend, it ensures that the performance differences between sub-millisecond
 configurations are visually clear and suitable for a scientific journal.
 
-4. _figure2_delay_analysis_based_on_offset_MS-SL.py_:
+3. _figure2_delay_analysis_based_on_offset_MS-SL.py_:
 This script, tailored for Experiment 2 (Exp2), analyzes how packets are distributed
 across successive transmission windows (network cycles) based on the TAS offset ($\delta_{\text{DC}}$).
 It categorizes empirical delays into discrete windows by calculating the index
@@ -38,7 +38,7 @@ a packet falling into each network cycle, providing a clear visual representatio
 network reliability and the likelihood of packets being deferred to subsequent network
 cycles as the offset varies.
 
-6. _figure3_delay_analysis_based_on_network_cycle.py_:
+4. _figure3_delay_analysis_based_on_network_cycle.py_:
 This script, designed for Experiment 3 (Exp3), analyzes the impact of varying both the
 network cycle time ($T_i^{\text{nc}}$) and the TAS window size ($W_{i,\text{DC}}$) on
 packet transmission delays. It functions by grouping empirical delay data into
@@ -50,7 +50,7 @@ where each configuration displays overlaid color-coded bars for successive netwo
 topped with floating text annotations that specify the exact probability (Prob.) of a
 packet being transmitted within that specific window.
 
-8. _figure4_1_delay_analysis_multiple_same-priority_flows.py_:  
+5. _figure4_1_delay_analysis_multiple_same-priority_flows.py_:  
 This script, tailored for Experiment 4 part 1 (Exp4_1), generates a high-precision Cumulative
 Distribution Function (CDF) plot to analyze the impact of significantly larger TAS window
 sizes ($W_{\mathrm{MS,DC}}$ ranging from 0.25 to 1.75 ms) on packet transmission delays.
@@ -62,7 +62,7 @@ to display four decimal places, allowing for an extremely granular inspection of
 distribution's tail (latencies between 16 and 23 ms). This visualization highlights how
 larger window configurations affect the deterministic bounds of the system.
 
-9. _figure4_2_delay_analysis_multiple_same-priority_flows.py_: 
+6. _figure4_2_delay_analysis_multiple_same-priority_flows.py_: 
 This script, designed for Experiment 4 part 2 (Exp4_2), focuses on analyzing the drawn tails
 behavior of latencies by plotting the Complementary Cumulative Distribution Function (CCDF) on
 a logarithmic scale. To handle the large gap between typical packet delays and extreme outliers,
@@ -73,7 +73,7 @@ hiding internal spines and adding diagonal markers, the script provides a public
 of how different window sizes ($W_{i,DC}$) impact the probability of rare, high-latency events
 across discontinuous time intervals.
 
-10. _figure5_delay_analysis_based_on_BE_traffic_load.py_:
+7. _figure5_delay_analysis_based_on_BE_traffic_load.py_:
 This script, tailored for Experiment 5 (Exp5), investigates the impact of background traffic
 congestion on latency by analyzing the Complementary Cumulative Distribution Function (CCDF) on a
 logarithmic scale. It evaluates various injection rates of Best Effort traffic ($R_{BE}^{gen}$),
@@ -83,3 +83,11 @@ the extreme jitter caused by high network load, the script utilizes a broken-axi
 comparison of the tails in the distribution, showing how increasing background traffic
 elevates the probability of packets experiencing delays in much later network cycles, all
 while maintaining LaTeX-quality formatting and distinct line styles for each traffic profile.
+
+8. _figureEx_wired_TSN_network_vs_wireless_5G-TSN_network.py_
+The script performs a comparative latency analysis between two communication environments. It
+generates a Probability Mass Function (PMF) plot. By calculating key statistical metrics (Min, Max,
+Mean, and the 99.9th percentile), the script visualizes how the deterministic microsecond-level delay
+of a wired TSN bridge compares to the more variable millisecond-level jitter introduced by a 5G wireless
+system. It essentially provides the empirical data needed to calibrate timing windows for industrial
+network synchronization.
