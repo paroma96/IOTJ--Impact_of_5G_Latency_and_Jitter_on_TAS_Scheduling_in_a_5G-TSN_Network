@@ -287,7 +287,7 @@ if __name__ == "__main__":
     plt.figure(figsize=(10, 6))
 
     # === Set experiment directory path ===
-    directory = '../Exp5/'  # Adjust as needed
+    directory = '../Exp1/'  # Adjust as needed
 
     # === Process and plot all results ===
     process_directory(directory)
